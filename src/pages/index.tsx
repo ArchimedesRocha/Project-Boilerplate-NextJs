@@ -4,8 +4,6 @@ type Props = {
   title: string
 }
 
-const jujuba = 'jujuba'
-
 export default function Home({ title = 'Archimedes Rocha' }: Props) {
   return (
     <>
