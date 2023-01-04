@@ -1,13 +1,12 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
 
 type Props = {
-  title: string;
-};
+  title: string
+}
 
-export default function Home({ title = "Archimedes Rocha"} : Props) {
+const jujuba = 'jujuba'
+
+export default function Home({ title = 'Archimedes Rocha' }: Props) {
   return (
     <>
       <Head>
